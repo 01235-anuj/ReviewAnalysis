@@ -57,7 +57,7 @@ st.markdown(
         <a href="https://github.com/01235-anuj" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40" style="margin-right:20px;">
         </a>
-        <a href="https://www.linkedin.com/in/anuj-mishra-01235" target="_blank">
+        <a href="https://www.linkedin.com/in/anuj-mishra-2849ba202/" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="40">
         </a>
     </div>
