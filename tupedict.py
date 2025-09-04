@@ -11,7 +11,7 @@ load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
 
-st.title("Movie Review Analyzer 🎬")
+st.title(" Review Analyzer 🎬")
 
 # Input box
 review = st.text_area(
