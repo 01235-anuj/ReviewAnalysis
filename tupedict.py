@@ -48,11 +48,19 @@ if st.button("Analyze") and review.strip():
         st.error("Failed to parse AI response. Here's the raw output:")
         st.text(cleaned_text)
 
-# Footer with links
-st.markdown("---")
-st.markdown("👨‍💻 Developed by **Anuj Mishra**")
+# Footer with logos
 st.markdown(
-    '🔗 <a href="https://github.com/01235-anuj" target="_blank">GitHub</a> | '
-    '💼 <a href="https://www.linkedin.com/in/anuj-mishra-01235" target="_blank">LinkedIn</a>',
+    """
+    <hr>
+    <div style="text-align: center;">
+        <p style="font-size:14px;">👨‍💻 Developed by <b>Anuj Mishra</b></p>
+        <a href="https://github.com/01235-anuj" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40" style="margin-right:20px;">
+        </a>
+        <a href="https://www.linkedin.com/in/anuj-mishra-01235" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="40">
+        </a>
+    </div>
+    """,
     unsafe_allow_html=True
 )
