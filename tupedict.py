@@ -48,7 +48,11 @@ if st.button("Analyze") and review.strip():
         st.error("Failed to parse AI response. Here's the raw output:")
         st.text(cleaned_text)
 
-# --- Footer with GitHub & LinkedIn ---
+# Footer with links
 st.markdown("---")
 st.markdown("👨‍💻 Developed by **Anuj Mishra**")
-st.markdown("🔗 [GitHub](https://github.com/01235-anuj) | 💼 [LinkedIn](https://www.linkedin.com/in/anuj-mishra-01235)")
+st.markdown(
+    '🔗 <a href="https://github.com/01235-anuj" target="_blank">GitHub</a> | '
+    '💼 <a href="https://www.linkedin.com/in/anuj-mishra-01235" target="_blank">LinkedIn</a>',
+    unsafe_allow_html=True
+)
