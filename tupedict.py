@@ -47,3 +47,8 @@ if st.button("Analyze") and review.strip():
     except json.JSONDecodeError:
         st.error("Failed to parse AI response. Here's the raw output:")
         st.text(cleaned_text)
+
+# --- Footer with GitHub & LinkedIn ---
+st.markdown("---")
+st.markdown("👨‍💻 Developed by **Anuj Mishra**")
+st.markdown("🔗 [GitHub](https://github.com/01235-anuj) | 💼 [LinkedIn](https://www.linkedin.com/in/anuj-mishra-01235)")
